@@ -24,12 +24,15 @@ This ROS 2 project involves multiple nodes and services to control and interact 
     ```sh
     cd ~/ros2_ws
     ```
+2. Build the workspace:
     ```sh
    colcon build
     ```
+3. Source the setup script:
     ```sh
    source install/setup.bash
     ```
+4. Set the TurtleBot3 model:
     ```sh
    export TURTLEBOT3_MODEL=burger
     ```
