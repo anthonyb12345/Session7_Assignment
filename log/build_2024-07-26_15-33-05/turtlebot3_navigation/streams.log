@@ -1,0 +1,42 @@
+[1.067s] Invoking command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation': CMAKE_PREFIX_PATH=/home/anthony/Desktop/Assignment8/install/turtlebot3_simulations:/home/anthony/Desktop/Assignment8/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble PYTHONPATH=/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build
+[1.402s] running develop
+[1.405s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.406s]   warnings.warn(
+[1.680s] Removing /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3-navigation.egg-link (link to .)
+[1.732s] Invoked command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation' returned '0': CMAKE_PREFIX_PATH=/home/anthony/Desktop/Assignment8/install/turtlebot3_simulations:/home/anthony/Desktop/Assignment8/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble PYTHONPATH=/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build
+[1.736s] Invoking command in '/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation': CMAKE_PREFIX_PATH=/home/anthony/Desktop/Assignment8/install/turtlebot3_simulations:/home/anthony/Desktop/Assignment8/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble PYTHONPATH=/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_navigation build --build-base /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build install --record /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/install.log --single-version-externally-managed install_data --force
+[2.101s] running egg_info
+[2.101s] writing ../../build/turtlebot3_navigation/turtlebot3_navigation.egg-info/PKG-INFO
+[2.102s] writing dependency_links to ../../build/turtlebot3_navigation/turtlebot3_navigation.egg-info/dependency_links.txt
+[2.103s] writing entry points to ../../build/turtlebot3_navigation/turtlebot3_navigation.egg-info/entry_points.txt
+[2.104s] writing requirements to ../../build/turtlebot3_navigation/turtlebot3_navigation.egg-info/requires.txt
+[2.104s] writing top-level names to ../../build/turtlebot3_navigation/turtlebot3_navigation.egg-info/top_level.txt
+[2.106s] reading manifest file '../../build/turtlebot3_navigation/turtlebot3_navigation.egg-info/SOURCES.txt'
+[2.107s] writing manifest file '../../build/turtlebot3_navigation/turtlebot3_navigation.egg-info/SOURCES.txt'
+[2.107s] running build
+[2.107s] running build_py
+[2.107s] creating /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build
+[2.107s] creating /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build/lib
+[2.108s] creating /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build/lib/turtlebot3_navigation
+[2.108s] copying turtlebot3_navigation/robot_driver.py -> /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build/lib/turtlebot3_navigation
+[2.108s] copying turtlebot3_navigation/wall_finder_server.py -> /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build/lib/turtlebot3_navigation
+[2.108s] copying turtlebot3_navigation/__init__.py -> /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build/lib/turtlebot3_navigation
+[2.109s] running install
+[2.109s] running install_lib
+[2.110s] creating /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3_navigation
+[2.110s] copying /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build/lib/turtlebot3_navigation/robot_driver.py -> /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3_navigation
+[2.110s] copying /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build/lib/turtlebot3_navigation/wall_finder_server.py -> /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3_navigation
+[2.110s] copying /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build/lib/turtlebot3_navigation/__init__.py -> /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3_navigation
+[2.111s] byte-compiling /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3_navigation/robot_driver.py to robot_driver.cpython-310.pyc
+[2.111s] byte-compiling /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3_navigation/wall_finder_server.py to wall_finder_server.cpython-310.pyc
+[2.112s] byte-compiling /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3_navigation/__init__.py to __init__.cpython-310.pyc
+[2.112s] running install_data
+[2.112s] copying resource/turtlebot3_navigation -> /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/share/ament_index/resource_index/packages
+[2.112s] copying package.xml -> /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/share/turtlebot3_navigation
+[2.112s] running install_egg_info
+[2.114s] Copying ../../build/turtlebot3_navigation/turtlebot3_navigation.egg-info to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3_navigation-0.0.0-py3.10.egg-info
+[2.115s] running install_scripts
+[2.141s] Installing robot_driver script to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/turtlebot3_navigation
+[2.141s] Installing wall_finder_server script to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/turtlebot3_navigation
+[2.147s] writing list of installed files to '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/install.log'
+[2.179s] Invoked command in '/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation' returned '0': CMAKE_PREFIX_PATH=/home/anthony/Desktop/Assignment8/install/turtlebot3_simulations:/home/anthony/Desktop/Assignment8/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble PYTHONPATH=/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_navigation build --build-base /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build install --record /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/install.log --single-version-externally-managed install_data --force

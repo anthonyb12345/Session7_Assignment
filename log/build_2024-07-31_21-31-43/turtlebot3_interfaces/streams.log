@@ -1,0 +1,244 @@
+[0.046s] Invoking command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces': /usr/bin/cmake --build /home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces -- -j3 -l3
+[0.169s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.423s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.459s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.464s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.543s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.299s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.189s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.253s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.253s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.253s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.363s] -- Configuring done
+[2.491s] -- Generating done
+[2.497s] -- Build files have been written to: /home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces
+[2.531s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.602s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.645s] [  4%] Built target ament_cmake_python_symlink_turtlebot3_interfaces
+[3.180s] running egg_info
+[3.182s] writing turtlebot3_interfaces.egg-info/PKG-INFO
+[3.183s] writing dependency_links to turtlebot3_interfaces.egg-info/dependency_links.txt
+[3.183s] writing top-level names to turtlebot3_interfaces.egg-info/top_level.txt
+[3.192s] reading manifest file 'turtlebot3_interfaces.egg-info/SOURCES.txt'
+[3.195s] writing manifest file 'turtlebot3_interfaces.egg-info/SOURCES.txt'
+[3.254s] [  4%] Built target ament_cmake_python_build_turtlebot3_interfaces_egg
+[3.819s] [  4%] Built target turtlebot3_interfaces__cpp
+[3.858s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.880s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.207s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_generator_c[0m
+[4.236s] [ 10%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_interfaces/action/detail/measure_lap_time__functions.c.o[0m
+[4.543s] [ 12%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_interfaces/srv/detail/find_closest_wall__functions.c.o[0m
+[4.650s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_typesupport_cpp[0m
+[4.688s] [ 14%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_interfaces/srv/detail/lap_starting_time__functions.c.o[0m
+[4.708s] [ 17%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_interfaces/action/measure_lap_time__type_support.cpp.o[0m
+[4.847s] [ 19%] [32m[1mLinking C shared library libturtlebot3_interfaces__rosidl_generator_c.so[0m
+[4.952s] [ 19%] Built target turtlebot3_interfaces__rosidl_generator_c
+[4.997s] [ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.266s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[5.373s] [ 23%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_interfaces/action/detail/dds_fastrtps/measure_lap_time__type_support.cpp.o[0m
+[5.848s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_interfaces/srv/find_closest_wall__type_support.cpp.o[0m
+[6.085s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_typesupport_introspection_cpp[0m
+[6.098s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_interfaces/action/detail/measure_lap_time__type_support.cpp.o[0m
+[6.321s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_interfaces/srv/lap_starting_time__type_support.cpp.o[0m
+[6.388s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_interfaces/srv/detail/dds_fastrtps/find_closest_wall__type_support.cpp.o[0m
+[6.791s] [ 34%] [32m[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_cpp.so[0m
+[6.891s] [ 34%] Built target turtlebot3_interfaces__rosidl_typesupport_cpp
+[6.920s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support.cpp.o[0m
+[7.117s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_interfaces/srv/detail/lap_starting_time__type_support.cpp.o[0m
+[7.131s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_interfaces/srv/detail/dds_fastrtps/lap_starting_time__type_support.cpp.o[0m
+[7.732s] [ 42%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.756s] [ 44%] [32m[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.893s] [ 46%] [32m[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.918s] [ 46%] Built target turtlebot3_interfaces__rosidl_typesupport_introspection_cpp
+[7.967s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.092s] [ 48%] Built target turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.116s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.843s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_typesupport_fastrtps_c[0m
+[8.869s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_interfaces/action/detail/measure_lap_time__type_support_c.cpp.o[0m
+[8.969s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_typesupport_c[0m
+[9.001s] [ 55%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_interfaces/action/measure_lap_time__type_support.cpp.o[0m
+[9.240s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_interfaces/srv/find_closest_wall__type_support.cpp.o[0m
+[9.264s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_typesupport_introspection_c[0m
+[9.332s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_interfaces/srv/lap_starting_time__type_support.cpp.o[0m
+[9.334s] [ 61%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_interfaces/action/detail/measure_lap_time__type_support.c.o[0m
+[9.457s] [ 63%] [32m[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_c.so[0m
+[9.538s] [ 65%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support.c.o[0m
+[9.607s] [ 65%] Built target turtlebot3_interfaces__rosidl_typesupport_c
+[9.657s] [ 68%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support_c.cpp.o[0m
+[9.676s] [ 70%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_interfaces/srv/detail/lap_starting_time__type_support.c.o[0m
+[9.808s] [ 72%] [32m[1mLinking C shared library libturtlebot3_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.869s] [ 72%] Built target turtlebot3_interfaces__rosidl_typesupport_introspection_c
+[9.886s] [ 74%] [32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_interfaces/srv/detail/lap_starting_time__type_support_c.cpp.o[0m
+[10.438s] [ 76%] [32m[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[10.563s] [ 76%] Built target turtlebot3_interfaces__rosidl_typesupport_fastrtps_c
+[10.602s] [ 76%] Built target turtlebot3_interfaces
+[10.622s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.403s] [ 78%] Built target turtlebot3_interfaces__py
+[12.427s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_generator_py[0m
+[12.445s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_interfaces/srv/_find_closest_wall_s.c.o[0m
+[12.445s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_interfaces/srv/_lap_starting_time_s.c.o[0m
+[12.445s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_interfaces/action/_measure_lap_time_s.c.o[0m
+[12.789s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/libturtlebot3_interfaces__rosidl_generator_py.so[0m
+[12.840s] [ 87%] Built target turtlebot3_interfaces__rosidl_generator_py
+[12.854s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[12.857s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[12.857s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_interfaces__rosidl_typesupport_c__pyext[0m
+[12.872s] [ 89%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.874s] [ 91%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.876s] [ 93%] [32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[13.049s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.086s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.101s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.128s] [100%] Built target turtlebot3_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[13.175s] [100%] Built target turtlebot3_interfaces__rosidl_typesupport_introspection_c__pyext
+[13.176s] [100%] Built target turtlebot3_interfaces__rosidl_typesupport_c__pyext
+[13.193s] Invoked command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces' returned '0': /usr/bin/cmake --build /home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces -- -j3 -l3
+[13.361s] Invoking command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces': /usr/bin/cmake --install /home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces
+[13.367s] -- Install configuration: ""
+[13.367s] -- Execute custom install script
+[13.368s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_interfaces
+[13.370s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__functions.h
+[13.372s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__struct.h
+[13.373s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__type_support.h
+[13.374s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/measure_lap_time.h
+[13.375s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_generator_c__visibility_control.h
+[13.376s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__functions.h
+[13.376s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__struct.h
+[13.377s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support.h
+[13.378s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__functions.h
+[13.386s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__struct.h
+[13.403s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__type_support.h
+[13.418s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/find_closest_wall.h
+[13.419s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/lap_starting_time.h
+[13.435s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/library_path.sh
+[13.436s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/library_path.dsv
+[13.439s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h
+[13.439s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.440s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_c.h
+[13.440s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__rosidl_typesupport_fastrtps_c.h
+[13.456s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h
+[13.456s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.457s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h
+[13.457s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__rosidl_typesupport_introspection_c.h
+[13.468s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__builder.hpp
+[13.468s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__struct.hpp
+[13.469s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__traits.hpp
+[13.469s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/measure_lap_time.hpp
+[13.470s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__builder.hpp
+[13.471s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__struct.hpp
+[13.471s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__traits.hpp
+[13.471s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__builder.hpp
+[13.483s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__struct.hpp
+[13.496s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__traits.hpp
+[13.512s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/find_closest_wall.hpp
+[13.512s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/lap_starting_time.hpp
+[13.523s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp
+[13.523s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.524s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_cpp.hpp
+[13.524s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__rosidl_typesupport_fastrtps_cpp.hpp
+[13.537s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp
+[13.538s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_cpp.hpp
+[13.538s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/lap_starting_time__rosidl_typesupport_introspection_cpp.hpp
+[13.548s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/pythonpath.sh
+[13.548s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/pythonpath.dsv
+[13.549s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[13.549s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.550s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.550s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[13.551s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/__init__.py
+[13.551s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_c.c
+[13.552s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.552s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[13.552s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/__init__.py
+[13.553s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/_measure_lap_time.py
+[13.553s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/_measure_lap_time_s.c
+[13.554s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/libturtlebot3_interfaces__rosidl_generator_py.so
+[13.554s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/__init__.py
+[13.554s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_find_closest_wall.py
+[13.555s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_find_closest_wall_s.c
+[13.555s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_lap_starting_time.py
+[13.568s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_lap_starting_time_s.c
+[13.579s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.580s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.580s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.581s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.581s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.581s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.582s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/action/MeasureLapTime.idl
+[13.582s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall.idl
+[13.583s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/LapStartingTime.idl
+[13.594s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/action/MeasureLapTime.action
+[13.595s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall.srv
+[13.595s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall_Request.msg
+[13.595s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall_Response.msg
+[13.596s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/LapStartingTime.srv
+[13.608s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/LapStartingTime_Request.msg
+[13.625s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/LapStartingTime_Response.msg
+[13.636s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/ament_index/resource_index/package_run_dependencies/turtlebot3_interfaces
+[13.636s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/ament_index/resource_index/parent_prefix_path/turtlebot3_interfaces
+[13.637s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/ament_prefix_path.sh
+[13.637s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/ament_prefix_path.dsv
+[13.638s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/path.sh
+[13.638s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/path.dsv
+[13.639s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.bash
+[13.640s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.sh
+[13.640s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.zsh
+[13.641s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.dsv
+[13.641s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/package.dsv
+[13.657s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/ament_index/resource_index/packages/turtlebot3_interfaces
+[13.658s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/rosidl_cmake-extras.cmake
+[13.660s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.660s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.662s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.662s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[13.663s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.663s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.664s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfacesConfig.cmake
+[13.665s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfacesConfig-version.cmake
+[13.666s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/package.xml
+[13.666s] -- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_c.so
+[13.666s] -- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_c.so" to ""
+[13.669s] -- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_c.so
+[13.671s] -- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[13.673s] -- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_c.so
+[13.673s] -- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[13.675s] -- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_c.so
+[13.676s] -- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_c.so" to ""
+[13.678s] -- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[13.679s] -- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.681s] -- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_cpp.so
+[13.682s] -- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[13.683s] -- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_cpp.so
+[13.683s] -- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_cpp.so" to ""
+[13.760s] Listing '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces'...
+[13.760s] Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/__init__.py'...
+[13.760s] Listing '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action'...
+[13.760s] Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/__init__.py'...
+[13.760s] Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/_measure_lap_time.py'...
+[13.760s] Listing '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv'...
+[13.760s] Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/__init__.py'...
+[13.760s] Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_find_closest_wall.py'...
+[13.760s] Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_lap_starting_time.py'...
+[13.773s] -- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_py.so
+[13.773s] -- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_py.so" to ""
+[13.775s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_cExport.cmake
+[13.775s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_cExport-noconfig.cmake
+[13.776s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[13.776s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.777s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[13.777s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.779s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cExport.cmake
+[13.779s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[13.779s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_cppExport.cmake
+[13.780s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.780s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.781s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[13.781s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.782s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cppExport.cmake
+[13.782s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[13.783s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_pyExport.cmake
+[13.783s] -- Up-to-date: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[13.785s] Invoked command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces' returned '0': /usr/bin/cmake --install /home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces

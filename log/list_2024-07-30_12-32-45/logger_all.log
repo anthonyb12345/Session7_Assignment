@@ -1,0 +1,110 @@
+[1.442s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/anthony/Desktop/Assignment8']
+[1.443s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/anthony/Desktop/Assignment8'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2f07bc0dc0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f2f07cb1630>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f2f07cb1630>>)
+[3.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.425s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anthony/Desktop/Assignment8'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extensions ['ignore', 'ignore_ament_install']
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extension 'ignore'
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extension 'ignore_ament_install'
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extensions ['colcon_pkg']
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extension 'colcon_pkg'
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extensions ['colcon_meta']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extension 'colcon_meta'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extensions ['ros']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extension 'ros'
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extensions ['cmake', 'python']
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extension 'cmake'
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extension 'python'
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extensions ['python_setup_py']
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8) by extension 'python_setup_py'
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/build) by extensions ['ignore', 'ignore_ament_install']
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/build) by extension 'ignore'
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/build) ignored
+[3.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/install) by extensions ['ignore', 'ignore_ament_install']
+[3.537s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/install) by extension 'ignore'
+[3.537s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/install) ignored
+[3.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/log) by extensions ['ignore', 'ignore_ament_install']
+[3.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/log) by extension 'ignore'
+[3.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/log) ignored
+[3.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extensions ['ignore', 'ignore_ament_install']
+[3.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extension 'ignore'
+[3.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extension 'ignore_ament_install'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extensions ['colcon_pkg']
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extension 'colcon_pkg'
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extensions ['colcon_meta']
+[3.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extension 'colcon_meta'
+[3.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extensions ['ros']
+[3.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extension 'ros'
+[3.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extensions ['cmake', 'python']
+[3.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extension 'cmake'
+[3.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extension 'python'
+[3.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extensions ['python_setup_py']
+[3.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src) by extension 'python_setup_py'
+[3.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[3.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces) by extension 'ignore'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces) by extension 'ignore_ament_install'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces) by extensions ['colcon_pkg']
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces) by extension 'colcon_pkg'
+[3.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces) by extensions ['colcon_meta']
+[3.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces) by extension 'colcon_meta'
+[3.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces) by extensions ['ros']
+[3.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces) by extension 'ros'
+[3.565s] DEBUG:colcon.colcon_core.package_identification:Package '/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces' with type 'ros.ament_cmake' and name 'turtlebot3_interfaces'
+[3.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation) by extensions ['ignore', 'ignore_ament_install']
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation) by extension 'ignore'
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation) by extension 'ignore_ament_install'
+[3.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation) by extensions ['colcon_pkg']
+[3.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation) by extension 'colcon_pkg'
+[3.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation) by extensions ['colcon_meta']
+[3.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation) by extension 'colcon_meta'
+[3.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation) by extensions ['ros']
+[3.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation) by extension 'ros'
+[3.581s] DEBUG:colcon.colcon_core.package_identification:Package '/home/anthony/Desktop/Assignment8/src/turtlebot3_navigation' with type 'ros.ament_python' and name 'turtlebot3_navigation'
+[3.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[3.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extension 'ignore'
+[3.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[3.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[3.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extension 'colcon_pkg'
+[3.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extensions ['colcon_meta']
+[3.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extension 'colcon_meta'
+[3.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extensions ['ros']
+[3.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extension 'ros'
+[3.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extension 'cmake'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extension 'python'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extensions ['python_setup_py']
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations) by extension 'python_setup_py'
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[3.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[3.596s] DEBUG:colcon.colcon_core.package_identification:Package '/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[3.606s] DEBUG:colcon.colcon_core.package_identification:Package '/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[3.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[3.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[3.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[3.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[3.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[3.623s] DEBUG:colcon.colcon_core.package_identification:Package '/home/anthony/Desktop/Assignment8/src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[3.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

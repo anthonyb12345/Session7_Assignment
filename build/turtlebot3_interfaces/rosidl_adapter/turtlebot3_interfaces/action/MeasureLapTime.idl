@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from turtlebot3_interfaces/action/MeasureLapTime.action
+// generated code does not contain a copyright notice
+
+
+module turtlebot3_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MeasureLapTime_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MeasureLapTime_Result {
+      float total_time;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MeasureLapTime_Feedback {
+      float elapsed_time;
+    };
+  };
+};

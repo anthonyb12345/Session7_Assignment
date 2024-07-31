@@ -1,0 +1,20 @@
+[3.034s] Invoking command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation': AMENT_PREFIX_PATH=/home/anthony/Desktop/Assignment8/install/turtlebot3_simulations:/home/anthony/Desktop/Assignment8/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anthony/Desktop/Assignment8/install/turtlebot3_simulations:/home/anthony/Desktop/Assignment8/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node:/opt/ros/humble PYTHONPATH=/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build --no-deps symlink_data
+[4.170s] running develop
+[4.171s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.171s]   warnings.warn(
+[4.842s] running egg_info
+[4.843s] writing turtlebot3_navigation.egg-info/PKG-INFO
+[4.844s] writing dependency_links to turtlebot3_navigation.egg-info/dependency_links.txt
+[4.845s] writing entry points to turtlebot3_navigation.egg-info/entry_points.txt
+[4.848s] writing requirements to turtlebot3_navigation.egg-info/requires.txt
+[4.849s] writing top-level names to turtlebot3_navigation.egg-info/top_level.txt
+[4.853s] reading manifest file 'turtlebot3_navigation.egg-info/SOURCES.txt'
+[4.857s] writing manifest file 'turtlebot3_navigation.egg-info/SOURCES.txt'
+[4.861s] running build_ext
+[4.862s] Creating /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3-navigation.egg-link (link to .)
+[4.867s] Installing robot_driver script to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/turtlebot3_navigation
+[4.872s] Installing wall_finder_server script to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/turtlebot3_navigation
+[4.872s] 
+[4.872s] Installed /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation
+[4.873s] running symlink_data
+[4.971s] Invoked command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation' returned '0': AMENT_PREFIX_PATH=/home/anthony/Desktop/Assignment8/install/turtlebot3_simulations:/home/anthony/Desktop/Assignment8/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anthony/Desktop/Assignment8/install/turtlebot3_simulations:/home/anthony/Desktop/Assignment8/install/turtlebot3_gazebo:/home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node:/opt/ros/humble PYTHONPATH=/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces/ament_cmake_core/turtlebot3_interfacesConfig-version.cmake

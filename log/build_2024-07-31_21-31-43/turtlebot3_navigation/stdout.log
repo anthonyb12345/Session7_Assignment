@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing turtlebot3_navigation.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_navigation.egg-info/dependency_links.txt
+writing entry points to turtlebot3_navigation.egg-info/entry_points.txt
+writing requirements to turtlebot3_navigation.egg-info/requires.txt
+writing top-level names to turtlebot3_navigation.egg-info/top_level.txt
+reading manifest file 'turtlebot3_navigation.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3-navigation.egg-link (link to .)
+Installing lap_time_client script to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/turtlebot3_navigation
+Installing lap_time_server script to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/turtlebot3_navigation
+Installing robot_driver script to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/turtlebot3_navigation
+Installing wall_finder_server script to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/turtlebot3_navigation
+
+Installed /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation
+running symlink_data

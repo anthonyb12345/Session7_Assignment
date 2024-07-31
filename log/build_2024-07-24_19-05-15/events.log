@@ -1,0 +1,409 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (turtlebot3_interfaces) JobQueued: {'identifier': 'turtlebot3_interfaces', 'dependencies': OrderedDict()}
+[0.000206] (turtlebot3_navigation) JobQueued: {'identifier': 'turtlebot3_navigation', 'dependencies': OrderedDict()}
+[0.000230] (turtlebot3_interfaces) JobStarted: {'identifier': 'turtlebot3_interfaces'}
+[0.013162] (turtlebot3_navigation) JobStarted: {'identifier': 'turtlebot3_navigation'}
+[0.040917] (turtlebot3_interfaces) JobProgress: {'identifier': 'turtlebot3_interfaces', 'progress': 'cmake'}
+[0.043200] (turtlebot3_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/anthony/Desktop/Assignment8/src/turtlebot3_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces'], 'cwd': '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'anthony'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthony'), ('OLDPWD', '/home/anthony/Desktop/Assignment8/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2475'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/Desktop/Assignment8/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2213,unix/anthony-virtual-machine:/tmp/.ICE-unix/2213'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/72d9c60e_6b58_4fc5_b01f_d487e3b24dcf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZKMXR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble::/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation')]), 'shell': False}
+[0.097559] (-) TimerEvent: {}
+[0.198418] (-) TimerEvent: {}
+[0.199191] (turtlebot3_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299967] (-) TimerEvent: {}
+[0.402544] (-) TimerEvent: {}
+[0.478676] (turtlebot3_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.510034] (-) TimerEvent: {}
+[0.511433] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.610309] (-) TimerEvent: {}
+[0.633770] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.652268] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.655171] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.655279] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.655733] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.711139] (-) TimerEvent: {}
+[0.780581] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.788518] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.788790] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.789139] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.794067] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.811669] (-) TimerEvent: {}
+[0.913002] (-) TimerEvent: {}
+[1.024305] (-) TimerEvent: {}
+[1.062299] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.127241] (-) TimerEvent: {}
+[1.146991] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.174656] (turtlebot3_navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/build', '--no-deps', 'symlink_data'], 'cwd': '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'anthony', 'LC_TIME': 'ar_LB.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anthony', 'OLDPWD': '/home/anthony/Desktop/Assignment8/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_LB.UTF-8', 'SYSTEMD_EXEC_PID': '2475', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anthony/Desktop/Assignment8/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anthony', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anthony', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2213,unix/anthony-virtual-machine:/tmp/.ICE-unix/2213', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_LB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/72d9c60e_6b58_4fc5_b01f_d487e3b24dcf', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_LB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZKMXR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_LB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_LB.UTF-8', 'LC_IDENTIFICATION': 'ar_LB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_LB.UTF-8', 'LC_PAPER': 'ar_LB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble:'}, 'shell': False}
+[1.227946] (-) TimerEvent: {}
+[1.229946] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.240509] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.262691] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.335289] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.335567] (-) TimerEvent: {}
+[1.436340] (-) TimerEvent: {}
+[1.538692] (-) TimerEvent: {}
+[1.640146] (-) TimerEvent: {}
+[1.692906] (turtlebot3_navigation) StdoutLine: {'line': b'running develop\n'}
+[1.693454] (turtlebot3_navigation) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.693626] (turtlebot3_navigation) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.740829] (-) TimerEvent: {}
+[1.848515] (-) TimerEvent: {}
+[1.928433] (turtlebot3_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[1.928655] (turtlebot3_navigation) StdoutLine: {'line': b'creating turtlebot3_navigation.egg-info\n'}
+[1.929113] (turtlebot3_navigation) StdoutLine: {'line': b'writing turtlebot3_navigation.egg-info/PKG-INFO\n'}
+[1.929332] (turtlebot3_navigation) StdoutLine: {'line': b'writing dependency_links to turtlebot3_navigation.egg-info/dependency_links.txt\n'}
+[1.929873] (turtlebot3_navigation) StdoutLine: {'line': b'writing entry points to turtlebot3_navigation.egg-info/entry_points.txt\n'}
+[1.930249] (turtlebot3_navigation) StdoutLine: {'line': b'writing requirements to turtlebot3_navigation.egg-info/requires.txt\n'}
+[1.931085] (turtlebot3_navigation) StdoutLine: {'line': b'writing top-level names to turtlebot3_navigation.egg-info/top_level.txt\n'}
+[1.931907] (turtlebot3_navigation) StdoutLine: {'line': b"writing manifest file 'turtlebot3_navigation.egg-info/SOURCES.txt'\n"}
+[1.938162] (turtlebot3_navigation) StdoutLine: {'line': b"reading manifest file 'turtlebot3_navigation.egg-info/SOURCES.txt'\n"}
+[1.940428] (turtlebot3_navigation) StdoutLine: {'line': b"writing manifest file 'turtlebot3_navigation.egg-info/SOURCES.txt'\n"}
+[1.944319] (turtlebot3_navigation) StdoutLine: {'line': b'running build_ext\n'}
+[1.945086] (turtlebot3_navigation) StdoutLine: {'line': b'Creating /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages/turtlebot3-navigation.egg-link (link to .)\n'}
+[1.947295] (turtlebot3_navigation) StdoutLine: {'line': b'Installing robot_driver script to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/turtlebot3_navigation\n'}
+[1.947861] (turtlebot3_navigation) StdoutLine: {'line': b'Installing wall_finder_server script to /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/turtlebot3_navigation\n'}
+[1.948672] (turtlebot3_navigation) StdoutLine: {'line': b'\n'}
+[1.949149] (-) TimerEvent: {}
+[1.950074] (turtlebot3_navigation) StdoutLine: {'line': b'Installed /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation\n'}
+[1.950591] (turtlebot3_navigation) StdoutLine: {'line': b'running symlink_data\n'}
+[1.950775] (turtlebot3_navigation) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/share/ament_index\n'}
+[1.950930] (turtlebot3_navigation) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/share/ament_index/resource_index\n'}
+[1.951049] (turtlebot3_navigation) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/share/ament_index/resource_index/packages\n'}
+[1.951155] (turtlebot3_navigation) StdoutLine: {'line': b'symbolically linking /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/resource/turtlebot3_navigation -> /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/share/ament_index/resource_index/packages\n'}
+[1.951345] (turtlebot3_navigation) StdoutLine: {'line': b'symbolically linking /home/anthony/Desktop/Assignment8/build/turtlebot3_navigation/package.xml -> /home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/share/turtlebot3_navigation\n'}
+[2.010447] (turtlebot3_navigation) CommandEnded: {'returncode': 0}
+[2.033619] (turtlebot3_navigation) JobEnded: {'identifier': 'turtlebot3_navigation', 'rc': 0}
+[2.050009] (-) TimerEvent: {}
+[2.150574] (-) TimerEvent: {}
+[2.153748] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.251996] (-) TimerEvent: {}
+[2.353107] (-) TimerEvent: {}
+[2.453963] (-) TimerEvent: {}
+[2.564191] (-) TimerEvent: {}
+[2.633133] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.669355] (-) TimerEvent: {}
+[2.770327] (-) TimerEvent: {}
+[2.871184] (-) TimerEvent: {}
+[2.975496] (-) TimerEvent: {}
+[3.077041] (-) TimerEvent: {}
+[3.178911] (-) TimerEvent: {}
+[3.275112] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.281592] (-) TimerEvent: {}
+[3.326294] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.328055] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.363619] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.363943] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.364074] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.364183] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.381868] (-) TimerEvent: {}
+[3.389799] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.461217] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.486573] (-) TimerEvent: {}
+[3.490662] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.494270] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces\n'}
+[3.503054] (turtlebot3_interfaces) CommandEnded: {'returncode': 0}
+[3.504254] (turtlebot3_interfaces) JobProgress: {'identifier': 'turtlebot3_interfaces', 'progress': 'build'}
+[3.506470] (turtlebot3_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces', '--', '-j3', '-l3'], 'cwd': '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'anthony'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthony'), ('OLDPWD', '/home/anthony/Desktop/Assignment8/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2475'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/Desktop/Assignment8/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2213,unix/anthony-virtual-machine:/tmp/.ICE-unix/2213'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/72d9c60e_6b58_4fc5_b01f_d487e3b24dcf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZKMXR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble::/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation')]), 'shell': False}
+[3.586893] (-) TimerEvent: {}
+[3.609567] (turtlebot3_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.670304] (turtlebot3_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_turtlebot3_interfaces\n'}
+[3.679901] (turtlebot3_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.687696] (-) TimerEvent: {}
+[3.788925] (-) TimerEvent: {}
+[3.890182] (-) TimerEvent: {}
+[3.991321] (-) TimerEvent: {}
+[4.092728] (-) TimerEvent: {}
+[4.161528] (turtlebot3_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.163650] (turtlebot3_interfaces) StdoutLine: {'line': b'creating turtlebot3_interfaces.egg-info\n'}
+[4.164136] (turtlebot3_interfaces) StdoutLine: {'line': b'writing turtlebot3_interfaces.egg-info/PKG-INFO\n'}
+[4.164523] (turtlebot3_interfaces) StdoutLine: {'line': b'writing dependency_links to turtlebot3_interfaces.egg-info/dependency_links.txt\n'}
+[4.164875] (turtlebot3_interfaces) StdoutLine: {'line': b'writing top-level names to turtlebot3_interfaces.egg-info/top_level.txt\n'}
+[4.165324] (turtlebot3_interfaces) StdoutLine: {'line': b"writing manifest file 'turtlebot3_interfaces.egg-info/SOURCES.txt'\n"}
+[4.168235] (turtlebot3_interfaces) StdoutLine: {'line': b"reading manifest file 'turtlebot3_interfaces.egg-info/SOURCES.txt'\n"}
+[4.168896] (turtlebot3_interfaces) StdoutLine: {'line': b"writing manifest file 'turtlebot3_interfaces.egg-info/SOURCES.txt'\n"}
+[4.193838] (-) TimerEvent: {}
+[4.203052] (turtlebot3_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_turtlebot3_interfaces_egg\n'}
+[4.294153] (-) TimerEvent: {}
+[4.395381] (-) TimerEvent: {}
+[4.496184] (-) TimerEvent: {}
+[4.597698] (-) TimerEvent: {}
+[4.698959] (-) TimerEvent: {}
+[4.799601] (-) TimerEvent: {}
+[4.900342] (-) TimerEvent: {}
+[4.904286] (turtlebot3_interfaces) StdoutLine: {'line': b'[  5%] Built target turtlebot3_interfaces__cpp\n'}
+[4.913125] (turtlebot3_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_interfaces/action/detail/measure_lap_time__functions.c.o\x1b[0m\n'}
+[4.916941] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_interfaces/srv/detail/find_closest_wall__functions.c.o\x1b[0m\n'}
+[4.937484] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.000565] (-) TimerEvent: {}
+[5.055080] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.101681] (-) TimerEvent: {}
+[5.162146] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libturtlebot3_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.202973] (-) TimerEvent: {}
+[5.246163] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 17%] Built target turtlebot3_interfaces__rosidl_generator_c\n'}
+[5.264345] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.303087] (-) TimerEvent: {}
+[5.403762] (-) TimerEvent: {}
+[5.504412] (-) TimerEvent: {}
+[5.605395] (-) TimerEvent: {}
+[5.675871] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_interfaces/action/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[5.706268] (-) TimerEvent: {}
+[5.807300] (-) TimerEvent: {}
+[5.909141] (-) TimerEvent: {}
+[6.009746] (-) TimerEvent: {}
+[6.110556] (-) TimerEvent: {}
+[6.125014] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_interfaces/action/detail/dds_fastrtps/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[6.211954] (-) TimerEvent: {}
+[6.223012] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_interfaces/action/detail/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[6.312340] (-) TimerEvent: {}
+[6.413026] (-) TimerEvent: {}
+[6.514507] (-) TimerEvent: {}
+[6.615881] (-) TimerEvent: {}
+[6.716667] (-) TimerEvent: {}
+[6.817497] (-) TimerEvent: {}
+[6.920284] (-) TimerEvent: {}
+[6.990474] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_interfaces/srv/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[7.020492] (-) TimerEvent: {}
+[7.121297] (-) TimerEvent: {}
+[7.221925] (-) TimerEvent: {}
+[7.323268] (-) TimerEvent: {}
+[7.424116] (-) TimerEvent: {}
+[7.530847] (-) TimerEvent: {}
+[7.632629] (-) TimerEvent: {}
+[7.720111] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.724417] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_interfaces/srv/detail/dds_fastrtps/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[7.733025] (-) TimerEvent: {}
+[7.818634] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 35%] Built target turtlebot3_interfaces__rosidl_typesupport_cpp\n'}
+[7.833225] (-) TimerEvent: {}
+[7.845914] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.933593] (-) TimerEvent: {}
+[7.996192] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[8.034258] (-) TimerEvent: {}
+[8.135232] (-) TimerEvent: {}
+[8.235857] (-) TimerEvent: {}
+[8.336779] (-) TimerEvent: {}
+[8.352539] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.437222] (-) TimerEvent: {}
+[8.537994] (-) TimerEvent: {}
+[8.575545] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 43%] Built target turtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.623451] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.638435] (-) TimerEvent: {}
+[8.664680] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.739217] (-) TimerEvent: {}
+[8.840873] (-) TimerEvent: {}
+[8.848312] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_interfaces/action/detail/measure_lap_time__type_support_c.cpp.o\x1b[0m\n'}
+[8.923191] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 51%] Built target turtlebot3_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.937488] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.941920] (-) TimerEvent: {}
+[9.043380] (-) TimerEvent: {}
+[9.144436] (-) TimerEvent: {}
+[9.245362] (-) TimerEvent: {}
+[9.346620] (-) TimerEvent: {}
+[9.447591] (-) TimerEvent: {}
+[9.523457] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support_c.cpp.o\x1b[0m\n'}
+[9.547685] (-) TimerEvent: {}
+[9.648642] (-) TimerEvent: {}
+[9.675385] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_interfaces/action/detail/measure_lap_time__type_support.c.o\x1b[0m\n'}
+[9.698825] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_interfaces/action/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[9.749131] (-) TimerEvent: {}
+[9.755751] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support.c.o\x1b[0m\n'}
+[9.782066] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_interfaces/srv/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[9.849494] (-) TimerEvent: {}
+[9.863125] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libturtlebot3_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.891613] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.949876] (-) TimerEvent: {}
+[9.954048] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 71%] Built target turtlebot3_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.027490] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 71%] Built target turtlebot3_interfaces__rosidl_typesupport_c\n'}
+[10.050040] (-) TimerEvent: {}
+[10.120395] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libturtlebot3_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.151390] (-) TimerEvent: {}
+[10.263873] (-) TimerEvent: {}
+[10.338443] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtlebot3_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.369743] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtlebot3_interfaces\n'}
+[10.369992] (-) TimerEvent: {}
+[10.403253] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.479769] (-) TimerEvent: {}
+[10.590095] (-) TimerEvent: {}
+[10.696692] (-) TimerEvent: {}
+[10.808402] (-) TimerEvent: {}
+[10.917482] (-) TimerEvent: {}
+[11.027685] (-) TimerEvent: {}
+[11.136161] (-) TimerEvent: {}
+[11.245535] (-) TimerEvent: {}
+[11.355419] (-) TimerEvent: {}
+[11.463401] (-) TimerEvent: {}
+[11.567894] (-) TimerEvent: {}
+[11.680911] (-) TimerEvent: {}
+[11.788972] (-) TimerEvent: {}
+[11.890325] (-) TimerEvent: {}
+[11.926813] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 76%] Built target turtlebot3_interfaces__py\n'}
+[11.965701] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_interfaces/action/_measure_lap_time_s.c.o\x1b[0m\n'}
+[11.966103] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_interfaces/srv/_find_closest_wall_s.c.o\x1b[0m\n'}
+[11.993058] (-) TimerEvent: {}
+[12.098953] (-) TimerEvent: {}
+[12.200559] (-) TimerEvent: {}
+[12.221472] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/libturtlebot3_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[12.281126] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 84%] Built target turtlebot3_interfaces__rosidl_generator_py\n'}
+[12.302561] (-) TimerEvent: {}
+[12.328445] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.333358] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.340234] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlebot3_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.403474] (-) TimerEvent: {}
+[12.504800] (-) TimerEvent: {}
+[12.511354] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.574729] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.576272] (turtlebot3_interfaces) StdoutLine: {'line': b'[ 97%] Built target turtlebot3_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.597685] (turtlebot3_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.605659] (-) TimerEvent: {}
+[12.635568] (turtlebot3_interfaces) StdoutLine: {'line': b'[100%] Built target turtlebot3_interfaces__rosidl_typesupport_c__pyext\n'}
+[12.669712] (turtlebot3_interfaces) StdoutLine: {'line': b'[100%] Built target turtlebot3_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[12.685164] (turtlebot3_interfaces) CommandEnded: {'returncode': 0}
+[12.706011] (-) TimerEvent: {}
+[12.808649] (-) TimerEvent: {}
+[12.909308] (-) TimerEvent: {}
+[12.913039] (turtlebot3_interfaces) JobProgress: {'identifier': 'turtlebot3_interfaces', 'progress': 'install'}
+[12.927519] (turtlebot3_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces'], 'cwd': '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'anthony'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthony'), ('OLDPWD', '/home/anthony/Desktop/Assignment8/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2475'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthony/Desktop/Assignment8/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2213,unix/anthony-virtual-machine:/tmp/.ICE-unix/2213'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/72d9c60e_6b58_4fc5_b01f_d487e3b24dcf'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZKMXR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthony/Desktop/Assignment8/build/turtlebot3_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthony/Desktop/Assignment8/build/turtlebot3_navigation:/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation/lib/python3.10/site-packages:/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces:/opt/ros/humble::/home/anthony/Desktop/Assignment8/install/turtlebot3_navigation')]), 'shell': False}
+[12.948116] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.954859] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.955110] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_interfaces\n'}
+[12.960330] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__functions.h\n'}
+[12.984724] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__struct.h\n'}
+[13.000684] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__type_support.h\n'}
+[13.009725] (-) TimerEvent: {}
+[13.016814] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/measure_lap_time.h\n'}
+[13.031884] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.055035] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__functions.h\n'}
+[13.072335] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__struct.h\n'}
+[13.090451] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__type_support.h\n'}
+[13.108129] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/find_closest_wall.h\n'}
+[13.121475] (-) TimerEvent: {}
+[13.122721] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/library_path.sh\n'}
+[13.153729] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/library_path.dsv\n'}
+[13.179330] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h\n'}
+[13.208634] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.222669] (-) TimerEvent: {}
+[13.236660] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_c.h\n'}
+[13.266033] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h\n'}
+[13.288334] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.312527] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h\n'}
+[13.323523] (-) TimerEvent: {}
+[13.339011] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__builder.hpp\n'}
+[13.373203] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__struct.hpp\n'}
+[13.401479] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__traits.hpp\n'}
+[13.417784] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/measure_lap_time.hpp\n'}
+[13.429681] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__builder.hpp\n'}
+[13.429926] (-) TimerEvent: {}
+[13.447969] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__struct.hpp\n'}
+[13.475422] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__traits.hpp\n'}
+[13.497767] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/find_closest_wall.hpp\n'}
+[13.515798] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.530575] (-) TimerEvent: {}
+[13.531171] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.551740] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.579426] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.599920] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/include/turtlebot3_interfaces/turtlebot3_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.617986] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/pythonpath.sh\n'}
+[13.630727] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/pythonpath.dsv\n'}
+[13.631050] (-) TimerEvent: {}
+[13.647041] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[13.660261] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.683686] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.698442] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[13.712371] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/__init__.py\n'}
+[13.723491] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[13.731297] (-) TimerEvent: {}
+[13.734925] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.752947] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/_turtlebot3_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.770975] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/__init__.py\n'}
+[13.792392] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/_measure_lap_time.py\n'}
+[13.805233] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/_measure_lap_time_s.c\n'}
+[13.821386] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/libturtlebot3_interfaces__rosidl_generator_py.so\n'}
+[13.831764] (-) TimerEvent: {}
+[13.833021] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/__init__.py\n'}
+[13.845057] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_find_closest_wall.py\n'}
+[13.862470] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_find_closest_wall_s.c\n'}
+[13.885190] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.913304] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.932576] (-) TimerEvent: {}
+[13.937168] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.963509] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.964982] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.965503] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/turtlebot3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.966214] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/action/MeasureLapTime.idl\n'}
+[13.999278] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall.idl\n'}
+[14.029034] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/action/MeasureLapTime.action\n'}
+[14.032728] (-) TimerEvent: {}
+[14.049563] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall.srv\n'}
+[14.076070] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall_Request.msg\n'}
+[14.101107] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/srv/FindClosestWall_Response.msg\n'}
+[14.130240] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/ament_index/resource_index/package_run_dependencies/turtlebot3_interfaces\n'}
+[14.133055] (-) TimerEvent: {}
+[14.161187] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/ament_index/resource_index/parent_prefix_path/turtlebot3_interfaces\n'}
+[14.186818] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/ament_prefix_path.sh\n'}
+[14.204691] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.224880] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/path.sh\n'}
+[14.234038] (-) TimerEvent: {}
+[14.250026] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/environment/path.dsv\n'}
+[14.253283] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.bash\n'}
+[14.277714] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.sh\n'}
+[14.298195] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.zsh\n'}
+[14.309734] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/local_setup.dsv\n'}
+[14.324190] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/package.dsv\n'}
+[14.334169] (-) TimerEvent: {}
+[14.336667] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/ament_index/resource_index/packages/turtlebot3_interfaces\n'}
+[14.359771] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[14.370748] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.380412] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.392191] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.401799] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.413185] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.430761] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.434958] (-) TimerEvent: {}
+[14.451155] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfacesConfig.cmake\n'}
+[14.468731] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfacesConfig-version.cmake\n'}
+[14.480802] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/package.xml\n'}
+[14.490929] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_c.so\n'}
+[14.491454] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_c.so" to ""\n'}
+[14.491799] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[14.492137] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.492437] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[14.492822] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.493109] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_c.so\n'}
+[14.493406] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[14.493666] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.494091] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.494327] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[14.494634] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.495027] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_cpp.so\n'}
+[14.495326] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[14.540159] (-) TimerEvent: {}
+[14.592584] (turtlebot3_interfaces) StdoutLine: {'line': b"Listing '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces'...\n"}
+[14.593006] (turtlebot3_interfaces) StdoutLine: {'line': b"Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/__init__.py'...\n"}
+[14.593239] (turtlebot3_interfaces) StdoutLine: {'line': b"Listing '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action'...\n"}
+[14.593443] (turtlebot3_interfaces) StdoutLine: {'line': b"Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/__init__.py'...\n"}
+[14.593608] (turtlebot3_interfaces) StdoutLine: {'line': b"Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/action/_measure_lap_time.py'...\n"}
+[14.593760] (turtlebot3_interfaces) StdoutLine: {'line': b"Listing '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv'...\n"}
+[14.593889] (turtlebot3_interfaces) StdoutLine: {'line': b"Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/__init__.py'...\n"}
+[14.594027] (turtlebot3_interfaces) StdoutLine: {'line': b"Compiling '/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/local/lib/python3.10/dist-packages/turtlebot3_interfaces/srv/_find_closest_wall.py'...\n"}
+[14.606809] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_py.so\n'}
+[14.607879] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/lib/libturtlebot3_interfaces__rosidl_generator_py.so" to ""\n'}
+[14.608459] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.608809] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.608988] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.609523] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.609994] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.610426] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.610799] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.611276] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.611800] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.612481] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.612961] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.613406] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.613856] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.614290] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.614675] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/turtlebot3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.615066] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_pyExport.cmake\n'}
+[14.615390] (turtlebot3_interfaces) StdoutLine: {'line': b'-- Installing: /home/anthony/Desktop/Assignment8/install/turtlebot3_interfaces/share/turtlebot3_interfaces/cmake/export_turtlebot3_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.618162] (turtlebot3_interfaces) CommandEnded: {'returncode': 0}
+[14.640840] (-) TimerEvent: {}
+[14.741891] (-) TimerEvent: {}
+[14.843049] (-) TimerEvent: {}
+[14.890751] (turtlebot3_interfaces) JobEnded: {'identifier': 'turtlebot3_interfaces', 'rc': 0}
+[14.891804] (-) EventReactorShutdown: {}

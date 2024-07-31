@@ -1,0 +1,31 @@
+[0.091s] Invoking command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_fake_node': /usr/bin/cmake --build /home/anthony/Desktop/Assignment8/build/turtlebot3_fake_node -- -j3 -l3
+[0.677s] [100%] Built target turtlebot3_fake_node
+[0.768s] Invoked command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_fake_node' returned '0': /usr/bin/cmake --build /home/anthony/Desktop/Assignment8/build/turtlebot3_fake_node -- -j3 -l3
+[1.135s] Invoking command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_fake_node': /usr/bin/cmake --install /home/anthony/Desktop/Assignment8/build/turtlebot3_fake_node
+[1.223s] -- Install configuration: ""
+[1.225s] -- Execute custom install script
+[1.235s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[1.238s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[1.239s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[1.247s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[1.247s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[1.249s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[1.250s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[1.251s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[1.251s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[1.253s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[1.254s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[1.254s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[1.257s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[1.268s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[1.268s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[1.268s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[1.271s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[1.271s] -- Symlinking: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[1.302s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[1.302s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.305s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.305s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[1.305s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[1.308s] -- Up-to-date symlink: /home/anthony/Desktop/Assignment8/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[1.337s] Invoked command in '/home/anthony/Desktop/Assignment8/build/turtlebot3_fake_node' returned '0': /usr/bin/cmake --install /home/anthony/Desktop/Assignment8/build/turtlebot3_fake_node
